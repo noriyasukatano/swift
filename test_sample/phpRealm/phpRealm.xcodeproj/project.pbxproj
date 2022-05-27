@@ -11,6 +11,8 @@
 		52009ED3283B7C1D00694BE4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52009ED2283B7C1D00694BE4 /* ContentView.swift */; };
 		52009ED5283B7C1E00694BE4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52009ED4283B7C1E00694BE4 /* Assets.xcassets */; };
 		52009ED8283B7C1E00694BE4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52009ED7283B7C1E00694BE4 /* Preview Assets.xcassets */; };
+		52009EE0283FADC600694BE4 /* MusicItemModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52009EDF283FADC600694BE4 /* MusicItemModel.swift */; };
+		52009EE3283FAE1A00694BE4 /* RequestMusicItems.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52009EE2283FAE1A00694BE4 /* RequestMusicItems.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +22,8 @@
 		52009ED4283B7C1E00694BE4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		52009ED7283B7C1E00694BE4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		52009EDE283B851B00694BE4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		52009EDF283FADC600694BE4 /* MusicItemModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicItemModel.swift; sourceTree = "<group>"; };
+		52009EE2283FAE1A00694BE4 /* RequestMusicItems.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestMusicItems.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +56,8 @@
 		52009ECF283B7C1D00694BE4 /* phpRealm */ = {
 			isa = PBXGroup;
 			children = (
+				52009EE4283FAE2100694BE4 /* Request */,
+				52009EE1283FADE400694BE4 /* Model */,
 				52009EDE283B851B00694BE4 /* Info.plist */,
 				52009ED0283B7C1D00694BE4 /* phpRealmApp.swift */,
 				52009ED2283B7C1D00694BE4 /* ContentView.swift */,
@@ -67,6 +73,22 @@
 				52009ED7283B7C1E00694BE4 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		52009EE1283FADE400694BE4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				52009EDF283FADC600694BE4 /* MusicItemModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		52009EE4283FAE2100694BE4 /* Request */ = {
+			isa = PBXGroup;
+			children = (
+				52009EE2283FAE1A00694BE4 /* RequestMusicItems.swift */,
+			);
+			path = Request;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,7 +161,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				52009EE0283FADC600694BE4 /* MusicItemModel.swift in Sources */,
 				52009ED3283B7C1D00694BE4 /* ContentView.swift in Sources */,
+				52009EE3283FAE1A00694BE4 /* RequestMusicItems.swift in Sources */,
 				52009ED1283B7C1D00694BE4 /* phpRealmApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
